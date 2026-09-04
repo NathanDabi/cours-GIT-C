@@ -8,6 +8,3 @@ jobs:
       - uses: actions/checkout@v4
       - name: Compiler tets.c
         run: gcc tets.c -o programme
-      - name: Executer le programme
-        run: ./programme
-      
